@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Jogo da Velha em React usando useState
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples de jogo da velha feito com React para aprender como usar o hook `useState`. O jogo permite que dois jogadores joguem o clássico jogo da velha, alternando entre X e O, e determina automaticamente o vencedor ou se houve um empate.</br>
+<a href="https://jogo-velha-iota.vercel.app">Clique aqui para jogar!!</a>
 
-## Available Scripts
+## Como Jogar
 
-In the project directory, you can run:
+1. Clone este repositório em sua máquina local.
+2. Navegue até o diretório do projeto.
+3. Instale as dependências usando npm ou yarn:
 
-### `npm start`
+## Tecnologias Utilizadas
+- React
+- useState hook
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Estrutura do Projeto
+- **src/**: Contém o código-fonte do aplicativo.
+  - **components/**: Componentes React do jogo da velha.
+  - **App.js**: Componente principal do aplicativo.
+  - **index.js**: Arquivo de entrada do aplicativo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Próximos Passos
+Este projeto é apenas um exemplo simples para aprender como usar o hook useState do React. Você pode considerar estender este projeto adicionando recursos como:
 
-### `npm test`
+- Animações para destacar as células vencedoras.
+- Permitir que os jogadores escolham seus próprios símbolos (X, O).
+- Adicionar um botão para reiniciar o jogo.
+- Implementar um sistema de pontuação para múltiplos jogos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sinta-se à vontade para explorar, experimentar e expandir este projeto conforme desejar!
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contribuição
+Contribuições são bem-vindas! Se você encontrou algum problema ou deseja adicionar um novo recurso, sinta-se à vontade para abrir uma issue ou enviar uma pull request.
