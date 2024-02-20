@@ -1,6 +1,6 @@
 # Jogo da Velha em React usando useState
 
-Este é um projeto simples de jogo da velha feito com React para aprender como usar o hook `useState`. O jogo permite que dois jogadores joguem o clássico jogo da velha, alternando entre X e O, e determina automaticamente o vencedor ou se houve um empate.
+Este é um projeto simples de jogo da velha feito com React para aprender como usar o hook `useState`. O jogo permite que dois jogadores joguem o clássico jogo da velha, alternando entre X e O, e determina automaticamente o vencedor ou se houve um empate.</br>
 <a href="https://jogo-velha-iota.vercel.app">Clique aqui para jogar!!</a>
 
 ## Como Jogar
